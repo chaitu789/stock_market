@@ -1,0 +1,23 @@
+ASSIGNMENT
+
+To take the test, please follow these instructions:
+1.	Set aside a quiet and distraction-free environment where you can focus on the test.
+2.	Make sure you have a stable internet connection.
+3.	Use your preferred Python IDE or text editor to write your code.
+4.	Include comments to explain your thought process and approach to solving the problem.
+5.	Once you have completed the test, please send the document back to us within 48 hours.
+
+We will evaluate your test based on correctness, efficiency, clarity and readability of the code, proper use of comments, and proper error handling. If your test is successful, we will contact you for the next step in the hiring process.
+
+Input : Enclosed stocks.csv has two columns namely stock and it's weightage
+Sample Output: Image enclosed
+
+Process:
+
+1. Accept input from user for data period and investment amount 
+2. Use trading view/Yahoo finance API to fetch required daily candle data
+3. Once data is fetched, workout amount to be invested in each stock by multiplying stock weightage with investment amount. 
+4. Calculate number of shares that can be bought with this amount by dividing it with daily closing price. You will get number of shares that can be bought for that stock for that particular day.
+5. Likewise need to be done for all stocks in input sheet for all dates of user input
+
+Finally write resultant data in an Excel sheet. It should look like a time-table format.
